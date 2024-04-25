@@ -1,3 +1,36 @@
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.city-details {
+  text-align: center;
+}
+
+.enter-city {
+  border-radius: 7px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.search-button {
+  padding: 8px;
+  border-radius: 7px;
+  border-color: transparent;
+  background-color: pink;
+  transition: all 20ms ease-in-out;
+}
+
+.search-button:hover {
+  background-color: lightpink;
+}
+
+.the-app {
+  display: block;
+  margin: 0 auto;
 }
