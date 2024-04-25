@@ -1,12 +1,20 @@
+body {
+  background-color: beige;
+}
 h1 {
   font-size: 50px;
   padding-top: 50px;
+  color: white;
 }
 h2 {
   font-size: 100px;
   position: relative;
   left: 350px;
   bottom: 200px;
+  color: white;
+}
+p {
+  color: white;
 }
 form {
   text-align: center;
