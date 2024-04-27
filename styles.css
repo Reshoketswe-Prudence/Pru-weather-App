@@ -6,15 +6,9 @@ h1 {
   padding-top: 50px;
   color: white;
 }
-h2 {
-  font-size: 100px;
-  position: relative;
-  left: 350px;
-  bottom: 200px;
-  color: white;
-}
 p {
   color: white;
+  font-size: 20px;
 }
 form {
   text-align: center;
@@ -24,23 +18,24 @@ footer {
   text-align: center;
 }
 
+.current-temp {
+  font-size: 100px;
+  position: relative;
+  top: -100px;
+  right: -300px;
+}
+
 .city-details {
-  text-align: center;
   border-radius: 10px;
   background-color: skyblue;
-  margin-right: 300px;
-  margin-left: 300px;
-  padding-right: 300px;
-  margin-top: 50px;
-  padding-bottom: -50px;
 }
 
 .enter-city {
+  border: none;
   border-radius: 7px;
-  padding-left: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 65%;
 }
 
 .search-button {
@@ -57,5 +52,5 @@ footer {
 
 .the-app {
   display: block;
-  margin: 0 auto;
+  margin: 60px auto;
 }
