@@ -8,14 +8,19 @@
   </head>
   <body>
     <div class="the-app">
-      <form>
-        <input type="search" placeholder="Enter a City" class="enter-city" />
+      <form id="search-options">
+        <input
+          type="search"
+          placeholder="Enter a City"
+          class="enter-city"
+          id="city-search"
+        />
         <input type="submit" value="Search" class="search-button" />
       </form>
       <div class="city-details">
         <h1>Johannesburg</h1>
-        <p>
-          sunny day <br />
+        <p id="city-details">
+          <span id="current-date"></span> Sunny day <br />
           Humidity: 87%, Wind: 7.2km/h
         </p>
         <div class="current-temp">
