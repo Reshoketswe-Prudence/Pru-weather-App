@@ -9,6 +9,7 @@ h1 {
 p {
   color: white;
   font-size: 25px;
+  margin-bottom: 25px;
 }
 form {
   text-align: center;
@@ -24,10 +25,30 @@ a {
 }
 
 .current-temp {
-  font-size: 100px;
-  position: relative;
-  top: -100px;
-  right: -340px;
+  display: flex;
+  position: fixed;
+  margin-top: -170px;
+  margin-left: 450px;
+  margin-bottom: 300px;
+  margin-right: 10px;
+}
+
+.material-symbols-outlined {
+  font-size: 50px;
+  margin-top: 22px;
+  color: white;
+}
+
+.current-temp-value {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+  line-height: 88px;
+}
+
+.current-temp-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
 
 .city-details {
