@@ -26,17 +26,17 @@ a {
 
 .current-temp {
   display: flex;
-  position: fixed;
+  position: relative;
   margin-top: -170px;
   margin-left: 450px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   margin-right: 10px;
 }
 
 .material-symbols-outlined {
   font-size: 50px;
   margin-top: 22px;
-  color: white;
+  color: #000;
 }
 
 .current-temp-value {
@@ -54,7 +54,8 @@ a {
 .city-details {
   border-radius: 10px;
   background-color: skyblue;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .enter-city {
@@ -82,4 +83,16 @@ a {
   display: block;
   margin: 0px auto;
   max-width: 700px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
 }
