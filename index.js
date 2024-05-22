@@ -55,3 +55,28 @@ let currentDate = document.querySelector("#current-date");
 let todaysDate = new Date();
 
 currentDate.innerHTML = addingDate(todaysDate);
+
+function displayForecast() {
+  let days = ["Wed", "Thu", "Fri", "Sat", "Sun"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="row">
+          <div class="column-2">
+            <div class="weather-forecast-date">${day}</div>
+            <span class="material-symbols-outlined">cloud</span>
+            <div class="weather-forecast-temperature">
+              <span class="weather-forecast-temperature-max">18&deg;</span>
+              <span class="weather-forecast-temperature-min">12&deg;</span>
+            </div>
+          </div>
+        </div>`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
+displayForecast();
