@@ -33,12 +33,10 @@ a {
   margin-right: 10px;
 }
 
-/*.material-symbols-outlined {
-  font-size: 50px;
-  margin-top: 22px;
-  color: #000;
-}*/
-
+.weather-forecast-icon {
+  width: 20px%;
+  height: 85px;
+}
 .current-temp-value {
   font-size: 88px;
   margin-left: 10px;
@@ -91,8 +89,11 @@ a {
   padding-bottom: 50px;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
 }
 .weather-forecast-temperature-max {
   font-weight: bold;
+  padding: 0 10px;
 }
