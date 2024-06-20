@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-image: url("https://wallpapers.com/images/high/rainy-weather-with-birds-3nblkpfmcfz3kty6.webp");
 }
 h1 {
   font-size: 50px;
@@ -87,6 +87,9 @@ a {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
 }
 .weather-forecast-date {
   font-size: 20px;
